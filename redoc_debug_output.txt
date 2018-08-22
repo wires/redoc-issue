@@ -1,0 +1,46 @@
+Source directories from bsconfig: src
+./src
+With root: /private/tmp/test/src
+/private/tmp/test/src
+Source files found: /private/tmp/test/src/Demo.re : /private/tmp/test/src/Demo.re
+With compiled base: /private/tmp/test/lib/bs/src/Demo-Test.cmt : ./src/Demo.re
+/private/tmp/test/lib/bs/src/Demo-Test.cmt : ./src/Demo.re
+/private/tmp/test/docs
+/private/tmp/test/docs/api
+/private/tmp/test/docs/fonts
+root: "/private/tmp/test"
+meta:
+  packageName: "Test"
+  repo: "(none)"
+
+backend:
+  packgeRoot: /private/tmp/test
+  bsRoot: /private/tmp/test/node_modules/bs-platform
+  compiledDependencyDirectories:
+    /private/tmp/test/lib/bs : /private/tmp/test/lib/js/
+    /private/tmp/test/lib/bs : /private/tmp/test/lib/js/
+    /private/tmp/test/lib/bs/src : /private/tmp/test/lib/js/src
+  
+sidebarFile: "(none)"
+customFiles:
+  abs-md: "/private/tmp/test/README.md"  rel-src: "README.md"  abs-dest: "./index.html"
+moduleFiles:
+  abs-cmt: "/private/tmp/test/lib/bs/src/Demo-Test.cmt"  rel-src: "./src/Demo.re"
+  abs-cmt: "/private/tmp/test/lib/bs/src/Demo-Test.cmt"  rel-src: "./src/Demo.re"
+
+env:
+  static: "/Users/wires/workdir/reasonML/redoc/lib/bs/native/../../../static"
+  debug: true
+<<< Converting input to model!
+<<< Compiling!
+Test__Home_md_CODE_BLOCK_0
+  parse: cat /private/tmp/test/node_modules/.redoc/Test__Home_md_CODE_BLOCK_0.re | /private/tmp/test/node_modules/bs-platform/lib/refmt.exe --parse re --print binary > /private/tmp/test/node_modules/.redoc/Test__Home_md_CODE_BLOCK_0.re.ast && /private/tmp/test/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe /private/tmp/test/node_modules/.redoc/Test__Home_md_CODE_BLOCK_0.re.ast /private/tmp/test/node_modules/.redoc/Test__Home_md_CODE_BLOCK_0.re_ppx.ast
+Test__Home_md_CODE_BLOCK_1
+  parse: cat /private/tmp/test/node_modules/.redoc/Test__Home_md_CODE_BLOCK_1.re | /private/tmp/test/node_modules/bs-platform/lib/refmt.exe --parse re --print binary > /private/tmp/test/node_modules/.redoc/Test__Home_md_CODE_BLOCK_1.re.ast && /private/tmp/test/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe /private/tmp/test/node_modules/.redoc/Test__Home_md_CODE_BLOCK_1.re.ast /private/tmp/test/node_modules/.redoc/Test__Home_md_CODE_BLOCK_1.re_ppx.ast
+Code block results: 0 parse failures, 0 type failures, 0 success, 2 skips
+<<< Compiled!
+Ok packaged folks /private/tmp/test/docs
+
+Complete! Docs are available in /private/tmp/test/docs
+Open file:///private/tmp/test/docs/index.html in your browser to view
+
